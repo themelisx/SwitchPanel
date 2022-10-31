@@ -6,13 +6,13 @@ android {
             keyAlias 'switch_panel'
             keyPassword 'switch_panel'
             storePassword 'switch_panel'
-            storeFile file('D:\\Code\\Switch Panel\\keystore.jks')
+            storeFile file('D:\\Code\\SwitchPanel\\keystore.jks')
         }
         debug {
             keyAlias 'switch_panel'
             keyPassword 'switch_panel'
             storePassword 'switch_panel'
-            storeFile file('D:\\Code\\Switch Panel\\keystore.jks')
+            storeFile file('D:\\Code\\SwitchPanel\\keystore.jks')
         }
     }
     lintOptions {
