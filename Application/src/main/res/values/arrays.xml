@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    
+    <string-array name="num_of_switches_entries">
+        <item>4 switches</item>
+        <item>6 switches</item>
+        <item>8 switches</item>
+    </string-array>
+    
+    <string-array name="num_of_switches_values">
+        <item>0</item>  
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="clock_entries">
+        <item>12h format </item>
+        <item>24h format</item>
+    </string-array>
+
+    <string-array name="clock_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="workout_types">
+        <item>@string/type_onroad</item>
+        <item>@string/type_family</item>
+        <item>@string/type_normal</item>
+        <item>@string/type_hard</item>
+        <item>@string/type_extreme</item>
+    </string-array>
+
+    <string-array name="workout_types_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="type_onroad">On road</string>
+    <string name="type_family">Off-road with family</string>
+    <string name="type_normal">Off-road normal</string>
+    <string name="type_hard">Off-road hard</string>
+    <string name="type_extreme">Off-road extreme</string>
+</resources>

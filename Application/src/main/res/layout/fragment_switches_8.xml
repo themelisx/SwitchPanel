@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_light_back"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="50"
+        android:layout_height="0dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:id="@+id/s1"
+            android:background="@drawable/shape"
+            android:tag="1"
+            
+            android:orientation="vertical"
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_s1"
+                android:layout_weight="70"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <com.themelisx.switch_panel.AutoResizeTextView
+                android:id="@+id/text_s1"
+                android:padding="10dp"
+                android:maxLines="3"
+                android:text="Button 1"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="30sp"
+                android:layout_weight="30"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:id="@+id/s2"
+            android:background="@drawable/shape"
+            android:tag="2"
+
+            android:orientation="vertical"
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_s2"
+                android:layout_weight="70"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <com.themelisx.switch_panel.AutoResizeTextView
+                android:id="@+id/text_s2"
+                android:maxLines="3"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Button 2"
+                android:textSize="30sp"
+                android:layout_weight="30"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="50"
+        android:layout_height="0dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:id="@+id/s3"
+            android:background="@drawable/shape"
+            android:tag="3"
+
+            android:orientation="vertical"
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_s3"
+                android:layout_weight="70"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <com.themelisx.switch_panel.AutoResizeTextView
+                android:id="@+id/text_s3"
+                android:maxLines="3"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Button 3"
+                android:textSize="30sp"
+                android:layout_weight="30"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:id="@+id/s4"
+            android:background="@drawable/shape"
+            android:tag="4"
+
+            android:orientation="vertical"
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_s4"
+                android:layout_weight="70"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <com.themelisx.switch_panel.AutoResizeTextView
+                android:id="@+id/text_s4"
+                android:padding="10dp"
+                android:maxLines="3"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Button 4"
+                android:textSize="30sp"
+                android:layout_weight="30"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/panel56"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="50"
+        android:layout_height="0dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:id="@+id/s5"
+            android:background="@drawable/shape"
+            android:tag="5"
+
+            android:orientation="vertical"
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_s5"
+                android:layout_weight="70"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <com.themelisx.switch_panel.AutoResizeTextView
+                android:id="@+id/text_s5"
+                android:maxLines="3"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Button 5"
+                android:textSize="30sp"
+                android:layout_weight="30"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:id="@+id/s6"
+            android:background="@drawable/shape"
+            android:tag="6"
+
+            android:orientation="vertical"
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_s6"
+                android:layout_weight="70"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <com.themelisx.switch_panel.AutoResizeTextView
+                android:id="@+id/text_s6"
+                android:padding="10dp"
+                android:maxLines="3"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Button 6"
+                android:textSize="30sp"
+                android:layout_weight="30"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/panel78"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="50"
+        android:layout_height="0dp"
+        android:baselineAligned="false">
+
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:id="@+id/s7"
+            android:background="@drawable/shape"
+            android:tag="7"
+
+            android:orientation="vertical"
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_s7"
+                android:layout_weight="70"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <com.themelisx.switch_panel.AutoResizeTextView
+                android:id="@+id/text_s7"
+                android:maxLines="3"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Button 7"
+                android:textSize="30sp"
+                android:layout_weight="30"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:id="@+id/s8"
+            android:background="@drawable/shape"
+            android:tag="8"
+            
+            android:orientation="vertical"
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_s8"
+                android:layout_weight="70"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <com.themelisx.switch_panel.AutoResizeTextView
+                android:id="@+id/text_s8"
+                android:padding="10dp"
+                android:maxLines="3"
+                android:text="Button 8"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_weight="30"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

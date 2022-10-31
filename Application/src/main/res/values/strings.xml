@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">Bluetooth Switch Panel</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="permissions_denied">Permission denied</string>
+
+    <string name="tab_text_1">Switches</string>
+    <string name="tab_text_2">Settings</string>
+
+    <string name="my_switch">Switch</string>
+
+    <string name="backup_db">backup database</string>
+    <string name="backup_ok">backup completed</string>
+    <string name="backup_failed">backup failed</string>
+    <string name="restore_db">restore database</string>
+    <string name="restore_ok">restore completed</string>
+    <string name="restore_failed">restore failed</string>
+
+    <string name="title">Title</string>
+    <string name="set_on_start">At startup, set this switch ON</string>
+    <string name="general">GENERAL</string>
+    <string name="hide_toolbar">Auto hide navigation bar</string>
+    <string name="num_of_switches">Number of switches: %d</string>
+    <string name="switches_in_panel">switches in panel</string>
+    <string name="switches_in_panel_4">4 switches</string>
+    <string name="switches_in_panel_6">6 switches</string>
+    <string name="switches_in_panel_8">8 switches</string>
+    <string name="clock_format">Clock display format</string>
+    <string name="clock_show_date">Show date</string>
+    <string name="clock_show_date_summary">Show full date and time at clock panel</string>
+    <string name="reset">Reset BT device</string>
+    <string name="check_updates">Check for updates</string>
+
+    <string name="device_name">Device name: %s</string>
+    <string name="device_address">Device address: %s</string>
+    <string name="device_state">"State: %s"</string>
+
+    <string name="speed_mps">meters per second</string>
+    <string name="speed_kph">kilometers per hour</string>
+    <string name="speed_mph">miles per hour</string>
+    <string name="speed_fps">feet per second</string>
+    <string name="speed_kns">knots (nautical mile per hour)</string>
+
+    <string name="duration">duration</string>
+    <string name="clock_state_localtime">local time</string>
+    <string name="clock_state_runningtime">start - stop</string>
+    <string name="refresh_time">refresh rate</string>
+
+    <string name="speed_limit">speed limit</string>
+    <string name="battery">battery</string>
+    <string name="speed_top">max speed</string>
+    <string name="speed_avg">average speed</string>
+    <string name="odometer">odometer</string>
+    <string name="run_time">running time</string>
+    <string name="idle_time">idle time</string>
+
+    <string name="please_wait">please wait</string>
+    <string name="default_type">default type</string>
+    <string name="press_again_to_stop">press again to stop recording data</string>
+    <string name="recording_data">recording data</string>
+    <string name="delete_data">delete saved data ?</string>
+    <string name="action_canceled">action canceled</string>
+    <string name="track_points">track points</string>
+    <string name="comments">comments</string>
+    <string name="save_data_now">Do you want to save recorded data?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="show_battery_info">show battery information</string>
+    <string name="new_version_available">A new version is available. Do you want to update now?</string>
+    <string name="check_for_updates">check for updates at startup</string>
+    <string name="checking_for_updates">checking for updates</string>
+    <string name="my_account">GMail account</string>
+    <string name="my_version">version</string>
+    <string name="menu_orderby_title">title</string>
+    <string name="menu_orderby_distance">distance</string>
+    <string name="menu_orderby_date">date</string>
+    <string name="menu_settings">Settings</string>
+    <string name="gps_settings">GPS settings</string>
+    <string name="show_gps_warning">Show warning for GPS status</string>
+    <string name="menu_change_view">change view (analog / digital)</string>
+    <string name="speedometer">speedometer</string>
+    <string name="menu_speed_unit">speed unit</string>
+    <string name="menu_reset_counters">reset counters</string>
+
+    <string name="enabled">enabled</string>
+    <string name="disabled">disabled</string>
+    <string name="download">download</string>
+    <string name="error">error</string>
+
+    <string name="Ok">OK</string>
+    <string name="goto_settings">go to settings</string>
+    <string name="no_action">no action</string>
+    <string name="gps_is_off">GPS is inactive</string>
+    <string name="confirm_gps_off">to continue you must enable GPS</string>
+    <string name="programmer">programmer: Christos Themelis</string>
+    <string name="init">Initializing…</string>
+    <string name="device_scanner">Bluetooth device scanner</string>
+    <string name="enter_ble_pin">Enter Bluetooth device PIN code</string>
+    <string name="change">Change</string>
+    <string name="switch_setup">SWITCH SETUP</string>
+    <string name="select_switch">SELECT SWITCH</string>
+    <string name="select_color">Select color</string>
+    <string name="select_image">Select image</string>
+    <string name="green">Green</string>
+    <string name="orange">Orange</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="select_type">Select type</string>
+    <string name="select_relay">Relay number</string>
+    <string name="type_switch">Switch ON/OFF</string>
+    <string name="type_push">Push button</string>
+    <string name="device_not_connected">Device not connected</string>
+    <string name="select_panel">Select panel</string>
+    <string name="select_title">Select title</string>
+    <string name="relay">Relay</string>
+    <string name="engel_eyes">Angel eyes</string>
+    <string name="compressor">Compressor</string>
+    <string name="diff_lock">Differential lock</string>
+    <string name="fog_lights">Fog lights</string>
+    <string name="head_lights">Head lights</string>
+    <string name="left_lights">Left lights</string>
+    <string name="right_lights">Right lights</string>
+    <string name="side_lights">Side lights</string>
+    <string name="rear_lights">Rear lights</string>
+    <string name="winch">Winch</string>
+    <string name="winch_in">Winch in</string>
+    <string name="winch_out">Winch out</string>
+    <string name="winch_onoff">Winch on/off</string>
+    <string name="led_bar">LED bar</string>
+    <string name="led_lights">LED lights</string>
+    <string name="permission_request">The application needs the right of location to search for nearby bluetooth devices. When the application is not in use or in the background it does not use the location service</string>
+
+</resources>

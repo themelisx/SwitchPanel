@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/angel_eyes"
+        android:title="@string/engel_eyes" />
+    <item android:id="@+id/compressor"
+        android:title="@string/compressor" />
+    <item android:id="@+id/diff_lock"
+        android:title="@string/diff_lock" />
+    <item android:id="@+id/fog_lights"
+        android:title="@string/fog_lights" />
+    <item android:id="@+id/head_lights"
+        android:title="@string/head_lights" />
+    <item android:id="@+id/led_bar"
+        android:title="@string/led_bar" />
+    <item android:id="@+id/led_lights"
+        android:title="@string/led_lights" />
+    <item android:id="@+id/left_lights"
+        android:title="@string/left_lights" />
+    <item android:id="@+id/right_lights"
+        android:title="@string/right_lights" />
+    <item android:id="@+id/side_lights"
+        android:title="@string/side_lights" />
+    <item android:id="@+id/rear_lights"
+        android:title="@string/rear_lights" />
+    <item android:id="@+id/winch"
+        android:title="@string/winch" />
+    <item android:id="@+id/winch_in"
+        android:title="@string/winch_in" />
+    <item android:id="@+id/winch_out"
+        android:title="@string/winch_out" />
+    <item android:id="@+id/winch_onoff"
+        android:title="@string/winch_onoff" />
+</menu>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">Bluetooth Switch Panel</string>
+    <string name="ble_not_supported">Το BLE δεν υποστηρίζεται</string>
+
+    <string name="no_data">Χωρίς δεδομένα</string>
+    <string name="connected">Συνδέθηκε</string>
+    <string name="disconnected">Αποσυνδέθηκε</string>
+    <string name="title_devices">Αναζήτηση BLE συσκευής</string>
+    <string name="error_bluetooth_not_supported">To Bluetooth δεν υποστηρίζεται.</string>
+
+    <string name="unknown_device">Άγνωστη συσκευή</string>
+    <string name="unknown_characteristic">Άγνωστο χαρακτηριστικό</string>
+    <string name="unknown_service">Άγνωστη υπηρεσία</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Σύνδεση</string>
+    <string name="menu_disconnect">Αποσύνδεση</string>
+    <string name="menu_scan">Αναζήτηση</string>
+    <string name="menu_stop">Στοπ</string>
+    <string name="permissions_denied">Η άδεια απορρίφθηκε</string>
+
+    <string name="tab_text_1">Διακόπτες</string>
+    <string name="tab_text_2">Ρυθμίσεις</string>
+
+    <string name="my_switch">Διακόπτης</string>
+
+    <string name="backup_db">backup database</string>
+    <string name="backup_ok">backup completed</string>
+    <string name="backup_failed">backup failed</string>
+    <string name="restore_db">restore database</string>
+    <string name="restore_ok">restore completed</string>
+    <string name="restore_failed">restore failed</string>
+
+    <string name="title">Τίτλος</string>
+    <string name="set_on_start">Κατά την εκκίνηση, ενεργοποιήστε αυτόν τον διακόπτη</string>
+    <string name="general">ΓΕΝΙΚΑ</string>
+    <string name="hide_toolbar">Αυτόματη απόκρυψη γραμμής πλοήγησης</string>
+    <string name="num_of_switches">Αριθμός διακοπτών: %d</string>
+    <string name="switches_in_panel">διακόπτες στον πίνακα</string>
+    <string name="switches_in_panel_4">4 διακόπτες</string>
+    <string name="switches_in_panel_6">6 διακόπτες</string>
+    <string name="switches_in_panel_8">8 διακόπτες</string>
+    <string name="clock_format">Μορφή εμφάνισης ρολογιού</string>
+    <string name="clock_show_date">Εμφάνιση ημερομηνίας</string>
+    <string name="clock_show_date_summary">Εμφάνιση πλήρους ημερομηνίας και ώρας στον πίνακα της ώρας</string>
+    <string name="reset">Επανεκκίνηση BT συσκευής</string>
+    <string name="check_updates">Ελεγχος για ενημερώσεις</string>
+
+    <string name="device_name">Όνομα συσκευής: %s</string>
+    <string name="device_address">Διεύθυνση συσκευής: %s</string>
+    <string name="device_state">"Κατάσταση: %s"</string>
+
+    <string name="speed_mps">meters per second</string>
+    <string name="speed_kph">kilometers per hour</string>
+    <string name="speed_mph">miles per hour</string>
+    <string name="speed_fps">feet per second</string>
+    <string name="speed_kns">knots (nautical mile per hour)</string>
+
+    <string name="duration">duration</string>
+    <string name="clock_state_localtime">local time</string>
+    <string name="clock_state_runningtime">start - stop</string>
+    <string name="refresh_time">refresh rate</string>
+
+    <string name="speed_limit">speed limit</string>
+    <string name="battery">battery</string>
+    <string name="speed_top">max speed</string>
+    <string name="speed_avg">average speed</string>
+    <string name="odometer">odometer</string>
+    <string name="run_time">running time</string>
+    <string name="idle_time">idle time</string>
+
+    <string name="please_wait">please wait</string>
+    <string name="default_type">default type</string>
+    <string name="press_again_to_stop">press again to stop recording data</string>
+    <string name="recording_data">recording data</string>
+    <string name="delete_data">delete saved data ?</string>
+    <string name="action_canceled">action canceled</string>
+    <string name="track_points">track points</string>
+    <string name="comments">comments</string>
+    <string name="save_data_now">Do you want to save recorded data?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="show_battery_info">show battery information</string>
+    <string name="new_version_available">A new version is available. Do you want to update now?</string>
+    <string name="check_for_updates">check for updates at startup</string>
+    <string name="checking_for_updates">checking for updates</string>
+    <string name="my_account">GMail account</string>
+    <string name="my_version">version</string>
+    <string name="menu_orderby_title">title</string>
+    <string name="menu_orderby_distance">distance</string>
+    <string name="menu_orderby_date">date</string>
+    <string name="menu_settings">Settings</string>
+    <string name="gps_settings">GPS settings</string>
+    <string name="show_gps_warning">Show warning for GPS status</string>
+    <string name="menu_change_view">change view (analog / digital)</string>
+    <string name="speedometer">speedometer</string>
+    <string name="menu_speed_unit">speed unit</string>
+    <string name="menu_reset_counters">reset counters</string>
+
+    <string name="enabled">Ενεργό</string>
+    <string name="disabled">Ανενεργό</string>
+    <string name="download">Λήψη</string>
+    <string name="error">Σφάλμα</string>
+
+    <string name="Ok">OK</string>
+    <string name="goto_settings">Πήγαινε στις ρυθμίσεις</string>
+    <string name="no_action">Καμία ενέργεια</string>
+    <string name="gps_is_off">Το GPS είναι ενεργό</string>
+    <string name="confirm_gps_off">to continue you must enable GPS</string>
+    <string name="programmer">programmer: Christos Themelis</string>
+
+    <string name="init">Ενεργοποίηση…</string>
+    <string name="device_scanner">Αναζήτηση Bluetooth συσκευών</string>
+    <string name="enter_ble_pin">Εισαγάγετε τον κωδικό PIN της συσκευής Bluetooth</string>
+    <string name="change">Αλλαγή</string>
+    <string name="switch_setup">ΡΥΘΜΙΣΗ ΔΙΑΚΟΠΤΩΝ</string>
+    <string name="select_switch">ΕΠΙΛΕΞΤΕ ΔΙΑΚΟΠΤΗ</string>
+    <string name="select_color">Επιλέξτε χρώμα</string>
+    <string name="select_image">Επιλέξτε εικόνα</string>
+    <string name="green">Πράσινο</string>
+    <string name="orange">Πορτοκαλί</string>
+    <string name="blue">Μπλε</string>
+    <string name="red">Κόκκινο</string>
+    <string name="select_type">Επιλέξτε τύπο</string>
+    <string name="select_relay">Αριθμός ρελέ</string>
+    <string name="type_switch">Διακόπτης ON/OFF</string>
+    <string name="type_push">Πιεζόμενο κουμπί</string>
+    <string name="device_not_connected">Η συσκευή δεν είναι συνδεδεμένη</string>
+    <string name="select_panel">Επιλέξτε πίνακα</string>
+    <string name="select_title">Επιλέξτε τίτλο</string>
+    <string name="relay">Ρελέ</string>
+    <string name="engel_eyes">Angel eyes</string>
+    <string name="compressor">Συμπιεστής</string>
+    <string name="diff_lock">Κλείδωμα διαφορικού</string>
+    <string name="fog_lights">Φώτα ομίχλης</string>
+    <string name="head_lights">Φώτα μπροστά</string>
+    <string name="left_lights">Φώτα αριστερά</string>
+    <string name="right_lights">Φώτα δεξιά</string>
+    <string name="side_lights">Πλαϊνά φώτα</string>
+    <string name="rear_lights">Πίσω φώτα</string>
+    <string name="winch">Εργάτης</string>
+    <string name="winch_in">Εργάτης μέσα</string>
+    <string name="winch_out">Εργάτης έξω</string>
+    <string name="winch_onoff">Εργάτης on/off</string>
+    <string name="led_bar">Μπάρα LED</string>
+    <string name="led_lights">Φώτα LED</string>
+    <string name="permission_request">Η εφαρμογή χρειάζεται το δικαίωμα της τοποθεσίας για να πραγματοποιεί αναζήτηση κοντινών συσκευών bluetooth. Όταν η εφαρμογή δεν είναι σε χρήση ή βρίσκεται στο παρασκήνιο δεν χρησιμοποιεί την τοποθεσία</string>
+
+</resources>
