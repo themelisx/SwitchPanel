@@ -15,20 +15,13 @@ android {
             storeFile file('D:\\Code\\SwitchPanel\\keystore.jks')
         }
     }
-    lintOptions {
-        checkReleaseBuilds false
-        // Or, if you prefer, you can continue to check for errors in release builds,
-        // but continue the build even when errors are found:
-        abortOnError false
-    }
 
-    compileSdkVersion 31
-    buildToolsVersion "29.0.3"
+    compileSdkVersion 32
 
     defaultConfig {
         applicationId "com.themelisx.switch_panel"
         minSdkVersion 23
-        targetSdkVersion 31
+        targetSdkVersion 32
         versionCode 10500
         versionName "1.05.00"
         signingConfig signingConfigs.config
@@ -47,9 +40,14 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+    namespace 'com.themelisx.switch_panel'
 
 }
 

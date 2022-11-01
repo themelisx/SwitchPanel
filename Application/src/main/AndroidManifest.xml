@@ -17,8 +17,7 @@
 
 
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.themelisx.switch_panel">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
     
