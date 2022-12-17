@@ -1,19 +1,3 @@
-/*
- * Copyright (C) 2013 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.themelisx.switch_panel;
 
 import android.annotation.SuppressLint;
@@ -21,13 +5,8 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.os.Handler;
 import android.preference.PreferenceManager;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.util.Log;
 import android.view.ContextMenu;
 import android.view.Gravity;
 import android.view.MenuInflater;
@@ -39,6 +18,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupMenu;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -47,7 +27,6 @@ import androidx.appcompat.view.ContextThemeWrapper;
 
 import com.google.gson.Gson;
 
-import java.util.Arrays;
 import java.util.Locale;
 
 public class SettingsActivity extends Activity implements View.OnTouchListener {
@@ -405,12 +384,13 @@ public class SettingsActivity extends Activity implements View.OnTouchListener {
         final Button select_type = findViewById(R.id.select_type);
         final Button select_relay = findViewById(R.id.select_relay);
         final Button select_title = findViewById(R.id.select_title);
+        final RelativeLayout root = findViewById(R.id.root);
 
-        registerForContextMenu(select_color);
-        registerForContextMenu(select_panel);
-        registerForContextMenu(select_type);
-        registerForContextMenu(select_relay);
-        registerForContextMenu(select_image);
+        //registerForContextMenu(select_color);
+        //registerForContextMenu(select_panel);
+        //registerForContextMenu(select_type);
+        //registerForContextMenu(select_relay);
+        //registerForContextMenu(select_image);
 
         select_title.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -437,13 +417,13 @@ public class SettingsActivity extends Activity implements View.OnTouchListener {
             }
         });
 
-        /*
+
         select_relay.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
 
-                PopupMenu popup = new PopupMenu(SettingsActivity.this, Gravity.CENTER);
+                PopupMenu popup = new PopupMenu(new ContextThemeWrapper(SettingsActivity.this, R.style.PopupMenu), root, Gravity.CENTER);
                 popup.getMenuInflater().inflate(R.menu.select_relay, popup.getMenu());
                 popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                     public boolean onMenuItemClick(MenuItem item) {
@@ -485,7 +465,6 @@ public class SettingsActivity extends Activity implements View.OnTouchListener {
                         return true;
                     }
                 });
-
                 popup.show();//showing popup menu
             }
         });
@@ -495,7 +474,7 @@ public class SettingsActivity extends Activity implements View.OnTouchListener {
             @Override
             public void onClick(View v) {
 
-                PopupMenu popup = new PopupMenu(SettingsActivity.this, parent_panel);
+                PopupMenu popup = new PopupMenu(new ContextThemeWrapper(SettingsActivity.this, R.style.PopupMenu), root, Gravity.CENTER);
                 popup.getMenuInflater().inflate(R.menu.button_types, popup.getMenu());
                 popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                     public boolean onMenuItemClick(MenuItem item) {
@@ -526,7 +505,7 @@ public class SettingsActivity extends Activity implements View.OnTouchListener {
             @Override
             public void onClick(View v) {
 
-                PopupMenu popup = new PopupMenu(SettingsActivity.this, parent_panel);
+                PopupMenu popup = new PopupMenu(new ContextThemeWrapper(SettingsActivity.this, R.style.PopupMenu), root, Gravity.CENTER);
                 popup.getMenuInflater().inflate(R.menu.active_button_colors, popup.getMenu());
                 popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                     public boolean onMenuItemClick(MenuItem item) {
@@ -560,7 +539,7 @@ public class SettingsActivity extends Activity implements View.OnTouchListener {
             }
         });
 
-        final TextView num_of_switches = findViewById(R.id.select_panel);
+        //final TextView num_of_switches = findViewById(R.id.select_panel);
         //num_of_switches.setText(String.format(Locale.US, getString(R.string.num_of_switches), numberOfSwitches));
 
         select_panel.setOnClickListener(new View.OnClickListener() {
@@ -568,7 +547,7 @@ public class SettingsActivity extends Activity implements View.OnTouchListener {
             @Override
             public void onClick(View v) {
 
-                PopupMenu popup = new PopupMenu(SettingsActivity.this, parent_panel);
+                PopupMenu popup = new PopupMenu(new ContextThemeWrapper(SettingsActivity.this, R.style.PopupMenu), root, Gravity.CENTER);
                 popup.getMenuInflater().inflate(R.menu.num_of_switches, popup.getMenu());
                 popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                     public boolean onMenuItemClick(MenuItem item) {
@@ -607,7 +586,7 @@ public class SettingsActivity extends Activity implements View.OnTouchListener {
 
                 popup.show();//showing popup menu
             }
-        });*/
+        });
 
         selectSwitch(s1);
 
