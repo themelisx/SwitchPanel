@@ -16,14 +16,14 @@ android {
         }
     }
 
-    compileSdkVersion 32
+    compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.themelisx.switch_panel"
+        applicationId "com.themelisx.blue_switch_panel"
         minSdkVersion 23
-        targetSdkVersion 32
-        versionCode 10500
-        versionName "1.05.00"
+        targetSdkVersion 33
+        versionCode 10000
+        versionName "1.00.00"
         signingConfig signingConfigs.config
         vectorDrawables.useSupportLibrary = true
     }
